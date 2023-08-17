@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Registrate</title>
+  </head>
+  <body>
+    <header class="Header-section">
+      <a href="./index.html">
+        <img class="Img-logo" src="./img/logo2.png" alt="Logo" />
+      </a>
+      <nav class="Nav-section">
+        <label for="menu-hamburguesa <i class="fa-sharp fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="menu-hamburguesa" class="menu-hamburguesa" />
+        <ul class="Ul-section">
+          <li><a href="#inicio" class="nav-a">Inicio</a></li>
+          <li><a href="#servicios" class="nav-a">Servicios</a></li>
+          <li><a href="#contacto" class="nav-a">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="Form-section">
+        <h3>Registrate</h3>
+        <form class="Form-conteiner">
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" autofocus />
+          </div>
+          <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" />
+          </div>
+          <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              placeholder="outlook@gmail.com"
+              id="email"
+              required
+            />
+          </div>
+          <div>
+            <label for="pass">contraseña:</label>
+            <input type="password" />
+          </div>
+          <div>
+            <button>
+              <a href="#">Registrarse</a>
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer id="Footer">
+      <h4>&copy; WhistlerSP</h4>
+      <div class="footer-section">
+        <ul class="footer-list">
+          <li>
+            <img src="./img/ubicacion.png" alt="" />
+            <p>[Mitre 1038]</p>
+          </li>
+          <li>
+            <img src="./img/gmail.png" alt="" />
+            <p>[WhistlerSp@gmail.com</p>
+          </li>
+          <li>
+            <img src="./img/tel-logo.png" alt="" />
+            <p>28197379063</p>
+          </li>
+          <li>
+            <img src="./img/web.png" alt="" />
+            <a href="./index.html">whistler.sr</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
